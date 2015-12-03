@@ -3,6 +3,10 @@
 /*------------Estilos Generales-------------*/
 body {
 	background-color: #DEDFE8;
+	color: 	#6C6577;
+}
+h1,h2,h4 {
+	font-family: serif;
 }
 img {
 	width: 	100%;
@@ -16,7 +20,25 @@ ul {
 .text-fucsia {
 	color: #ED2364 !important;
 }
-
+.a-wrapper {
+	padding: 10px;
+	margin: 1em 0;
+}
+.a-btn {
+	padding: 10px 15px;
+	background-color: #B0ADB7;
+	color: #f4f4f4;
+	font-weight: bold;
+	border-radius: 15px;
+	-webkit-transition: all .35s;
+   	-moz-transition: all .35s;
+    -ms-transition: all .35s;
+     -o-transition: all .35s;
+        transition: all .35s;
+}
+.a-btn:hover {
+	color: white;
+}
 /*------------HEADER------------*/
 /* Menú Navegación */
 nav, .navbar-default, .navbar {
@@ -29,6 +51,8 @@ nav, .navbar-default, .navbar {
 .navbar-header .navbar-brand {
 	height: 60px !important;
 	color: #fff !important;
+	font-size: 40px;
+	font-family: 	serif;
 	-webkit-transition: all .25s;
 	   -moz-transition: all .25s;
 	    -ms-transition: all .25s;
@@ -36,7 +60,7 @@ nav, .navbar-default, .navbar {
 	        transition: all .25s;
 } 
 .navbar-header .navbar-brand:hover {
-	color: #0dc0c0 !important;
+	color: #ED2364 !important;
 } 
 .navbar-header .navbar-brand span{
 	padding-right: 10px;
@@ -59,7 +83,7 @@ nav, .navbar-default, .navbar {
 	.navbar-default .navbar-nav>li>a:hover {
        	color: #fff;
     	text-shadow:2px 2px 1px #222;
-    	background-color: rgba(255,255,255,.05);
+    	background-color: rgba(255,255,255,.5);
     }
 /*efecto sobre links ACTIVOS del menú*/
 	.navbar-default .navbar-nav>.active>a,
@@ -70,3 +94,11 @@ nav, .navbar-default, .navbar {
     	text-shadow:2px 2px 1px #222;
     	background-color: transparent;
 	}
+/*-------------Latest projects---------------*/
+.nav-latest a {
+
+}
+.nav-latest .active {
+	font-weight: 	bold;
+	color: #6C6577;
+}
